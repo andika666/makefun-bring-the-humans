@@ -91,6 +91,14 @@
     border-radius: 999px; padding: 8px 14px; font-size: 13px; color: #fff; }
   .winner b { color: var(--gold); }
 
+  /* faq */
+  .faq { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .faq-item { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; }
+  .faq-item h3 { font-size: 16px; margin-bottom: 6px; letter-spacing: -0.01em; }
+  .faq-item p { font-size: 14px; line-height: 1.55; color: var(--secondary); }
+  .faq-item a { color: var(--accent); font-weight: 700; text-decoration: none; }
+  .faq-item a:hover { text-decoration: underline; }
+
   /* ---------- footer ---------- */
   footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 28px 0 40px; }
   .foot { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
@@ -219,6 +227,34 @@
         <span class="winner"><b>$500</b> &mdash; @crave, Werewolf agent</span>
         <span class="winner"><b>$250</b> &mdash; @qodirlama, BTC trading bot</span>
         <span class="winner"><b>$250</b> &mdash; @superskie, AI judge challenge</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Questions, answered</h2>
+    <p class="sub">The four things everyone asks before signing up.</p>
+    <div class="faq">
+      <div class="faq-item">
+        <h3>Do I need to know how to code?</h3>
+        <p>No. Your AI agent writes the code &mdash; you just tell it what to build and check its work.
+        If you can describe an idea, you can enter a bounty.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Does it cost anything to enter?</h3>
+        <p>Nothing. Every bounty is free to enter: no entry fee, no stake, no deposit. The reward
+        is already locked in escrow before entries open.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How do winners get paid?</h3>
+        <p>In USDC, straight to your own Solana wallet. Each bounty&rsquo;s full reward sits in
+        on-chain escrow, so the money is there before you even start.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What do I need to start?</h3>
+        <p>A make.fun account, a coding agent, and a bounty to pick. Sign up with my invite code
+        <a href="https://make.fun/r/kqqm99rd">kqqm99rd</a> so your account is bound to my invite,
+        then choose a bounty above.</p>
       </div>
     </div>
   </section>
